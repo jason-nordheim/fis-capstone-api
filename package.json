@@ -1,0 +1,28 @@
+{
+  "name": "fis-capstone-api",
+  "version": "1.0.0",
+  "description": "## Routes",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-nordheim/fis-capstone-api.git"
+  },
+  "author": "Jason Nordheim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-nordheim/fis-capstone-api/issues"
+  },
+  "homepage": "https://github.com/jason-nordheim/fis-capstone-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
